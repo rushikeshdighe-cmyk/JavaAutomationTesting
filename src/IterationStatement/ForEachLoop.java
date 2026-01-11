@@ -1,15 +1,16 @@
 package IterationStatement;
 
-public class ForLoop3 {
+public class ForEachLoop {
 
 	public static void main(String[] args) {
+
+		int[] numbers= {10,20,30,40,50};
 		
-		//Print numbers from 10 down to 1 (in reverse order)
-
-
-		for(int i=10;i>=1;i--) {
+	 
+		for (int i : numbers) {
 			
 			System.out.println(i);
+			
 		}
 	}
 

@@ -3,6 +3,9 @@ package IterationStatement;
 public class ForLoop5 {
 
 	public static void main(String[] args) {
+		
+		//Sum of numbers from 1 to 100
+
  
 		int sum=0;
 		
