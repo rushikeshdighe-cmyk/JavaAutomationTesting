@@ -3,6 +3,9 @@ package IterationStatement;
 public class ForLoop2 {
 
 	public static void main(String[] args) {
+		
+		//print the table of any number
+
 
 		int a=5;
 		

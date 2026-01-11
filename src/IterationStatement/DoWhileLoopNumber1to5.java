@@ -1,19 +1,18 @@
 package IterationStatement;
 
-public class Whileloop {
+public class DoWhileLoopNumber1to5 {
 
 	public static void main(String[] args) {
-		
-		//Print even numbers from 1 to 100
-
 
 		int i=1;
 		
-		while(i<=5) {
+		do {
 			
 			System.out.println(i);
+			
 			i++;
-		}
+			
+		} while (i<=5);
 	}
 
 }
