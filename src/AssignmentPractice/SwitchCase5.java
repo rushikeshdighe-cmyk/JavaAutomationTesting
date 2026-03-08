@@ -1,15 +1,15 @@
-package Conditionalstatement;
+package AssignmentPractice;
 
-public class Switchcase2 {
+public class SwitchCase5 {
 
 	public static void main(String[] args) {
-		// Check vowel or consonant  
-		//Take a letter as input and use `switch` to print `"Vowel"` or `"Consonant"`.  a e i o u
-      
-		char ch= 'A';
+		/*Check vowel or consonant  
+Take a letter as input and use `switch` to print `"Vowel"` or `"Consonant"`.  a e i o u */
+		
+		char ch='a';
 		
 		switch (ch) {
-		case 'a' : System.out.println("Vowels");
+		case 'a': System.out.println("Vowels");
 		break;
 		case 'e': System.out.println("Vowels");
 		break;
@@ -23,19 +23,17 @@ public class Switchcase2 {
 		break;
 		case 'E': System.out.println("Vowels");
 		break;
-		case 'I':  System.out.println("Vowels");
+		case 'I': System.out.println("Vowels");
 		break;
 		case 'O': System.out.println("Vowels");
 		break;
 		case 'U': System.out.println("Vowels");
 		break;
-		
-		
-			
-		
-		default: System.out.println("consonant");
-			
+
+		default:System.out.println("Consonant");
+			break;
 		}
+
 
 	}
 
