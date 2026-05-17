@@ -7,7 +7,6 @@ public class LengthArray {
 		
 		System.out.println("Lenghth: "+arr.length);
 
-
 	}
 
 }
